@@ -1,0 +1,5 @@
+sentence = str(input('sentence: ')).strip()
+sentence1 = sentence.upper()
+print('Letter a in the sentence: {}'.format(sentence1.count('A')))
+print('First letter a position: {} '.format(sentence1.find('A')))
+print('Last letter a position: {} '.format(sentence1.rfind('A')))
